@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Lora:400,700|Source+Sans+Pro:300,400|Dosis:300,400,700");
 
-$main-color: #007fff;
+// $main-color: #007fff;
+// $main-color: #00c892;
+$main-color: #6c63ff;
 
 .intro {
   max-width: 700px;
@@ -10,6 +12,10 @@ $main-color: #007fff;
   color: #36363c;
   position: absolute;
   position: 0;
+
+  .intro-head {
+    height: 80vh;
+  }
 
   h1 {
     font-weight: 300;
@@ -31,6 +37,13 @@ $main-color: #007fff;
       box-shadow: inset 0 -55px 0 0 $main-color;
       color: white;
     }
+  }
+
+  .home-img {
+    position: absolute;
+    top: 0%;
+    left: 110%;
+    height: 20%;
   }
 
   .about {
