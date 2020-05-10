@@ -47,56 +47,34 @@
   height: 20%;
 }
 
-.intro .about {
-  padding: 50px;
-  position: relative;
-  left: 50%;
-}
-
-.intro .about-title {
-  position: absolute;
-  right: 100%;
-  width: 200px;
-  margin: auto;
-  color: #6c63ff;
-  text-align: center;
-  font-weight: 700;
-  letter-spacing: 2px;
-}
-
-.intro .about-content {
-  font-weight: 300;
-  font-size: 16px;
-  width: 100%;
-}
-
-.intro .skills {
-  padding: 50px;
-  position: relative;
-  left: 50%;
-}
-
-.intro .skills-title {
-  width: 200px;
-  margin: auto;
-  position: absolute;
-  right: 100%;
-  color: #6c63ff;
-  text-align: center;
-  font-weight: 700;
-  letter-spacing: 2px;
-}
-
-.intro .skills-content {
-  font-weight: 300;
-  font-size: 16px;
-  width: 100%;
-}
-
+.intro .about,
+.intro .skills,
 .intro .projects {
   padding: 50px;
   position: relative;
   left: 50%;
+  opacity: 1;
+}
+
+.intro .about-title,
+.intro .skills-title,
+.intro .projects-title {
+  position: absolute;
+  right: 100%;
+  width: 200px;
+  margin: auto;
+  color: #6c63ff;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.intro .about-content,
+.intro .skills-content,
+.intro .projects-content {
+  font-weight: 300;
+  font-size: 16px;
+  width: 100%;
 }
 
 .intro .sortingvis-pic {
@@ -108,23 +86,6 @@
 }
 
 .intro .movie-pic {
-  width: 100%;
-}
-
-.intro .projects-title {
-  width: 200px;
-  margin: auto;
-  position: absolute;
-  right: 100%;
-  color: #6c63ff;
-  text-align: center;
-  font-weight: 700;
-  letter-spacing: 2px;
-}
-
-.intro .projects-content {
-  font-weight: 300;
-  font-size: 16px;
   width: 100%;
 }
 /*# sourceMappingURL=style.css.map */

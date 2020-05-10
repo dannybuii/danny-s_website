@@ -46,57 +46,64 @@ $main-color: #6c63ff;
     height: 20%;
   }
 
-  .about {
-    padding: 50px;
-    position: relative;
-    left: 50%;
-  }
-
-  .about-title {
-    position: absolute;
-    right: 100%;
-    width: 200px;
-    margin: auto;
-    color: $main-color;
-    text-align: center;
-    font-weight: 700;
-    letter-spacing: 2px;
-  }
-
-  .about-content {
-    font-weight: 300;
-    font-size: 16px;
-    width: 100%;
-  }
-
-  .skills {
-    padding: 50px;
-    position: relative;
-    left: 50%;
-  }
-
-  .skills-title {
-    width: 200px;
-    margin: auto;
-    position: absolute;
-    right: 100%;
-    color: $main-color;
-    text-align: center;
-    font-weight: 700;
-    letter-spacing: 2px;
-  }
-
-  .skills-content {
-    font-weight: 300;
-    font-size: 16px;
-    width: 100%;
-  }
-
+  .about,
+  .skills,
   .projects {
     padding: 50px;
     position: relative;
     left: 50%;
+    opacity: 1;
   }
+
+  .about-title,
+  .skills-title,
+  .projects-title {
+    position: absolute;
+    right: 100%;
+    width: 200px;
+    margin: auto;
+    color: $main-color;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+
+  .about-content,
+  .skills-content,
+  .projects-content {
+    font-weight: 300;
+    font-size: 16px;
+    width: 100%;
+  }
+
+  // .skills {
+  //   padding: 50px;
+  //   position: relative;
+  //   left: 50%;
+  // }
+
+  // .skills-title {
+  //   width: 200px;
+  //   margin: auto;
+  //   position: absolute;
+  //   right: 100%;
+  //   color: $main-color;
+  //   text-align: center;
+  //   font-weight: 700;
+  //   letter-spacing: 2px;
+  // }
+
+  // .skills-content {
+  //   font-weight: 300;
+  //   font-size: 16px;
+  //   width: 100%;
+  // }
+
+  // .projects {
+  //   padding: 50px;
+  //   position: relative;
+  //   left: 50%;
+  // }
 
   .sortingvis-pic {
     width: 100%;
@@ -110,20 +117,20 @@ $main-color: #6c63ff;
     width: 100%;
   }
 
-  .projects-title {
-    width: 200px;
-    margin: auto;
-    position: absolute;
-    right: 100%;
-    color: $main-color;
-    text-align: center;
-    font-weight: 700;
-    letter-spacing: 2px;
-  }
+  // .projects-title {
+  //   width: 200px;
+  //   margin: auto;
+  //   position: absolute;
+  //   right: 100%;
+  //   color: $main-color;
+  //   text-align: center;
+  //   font-weight: 700;
+  //   letter-spacing: 2px;
+  // }
 
-  .projects-content {
-    font-weight: 300;
-    font-size: 16px;
-    width: 100%;
-  }
+  // .projects-content {
+  //   font-weight: 300;
+  //   font-size: 16px;
+  //   width: 100%;
+  // }
 }
