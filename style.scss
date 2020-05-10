@@ -53,6 +53,7 @@ $main-color: #6c63ff;
     position: relative;
     left: 50%;
     opacity: 1;
+    padding: 100px 140px;
   }
 
   .about-title,
@@ -72,38 +73,10 @@ $main-color: #6c63ff;
   .skills-content,
   .projects-content {
     font-weight: 300;
-    font-size: 16px;
+    font-size: 18px;
     width: 100%;
+    padding: 100px auto;
   }
-
-  // .skills {
-  //   padding: 50px;
-  //   position: relative;
-  //   left: 50%;
-  // }
-
-  // .skills-title {
-  //   width: 200px;
-  //   margin: auto;
-  //   position: absolute;
-  //   right: 100%;
-  //   color: $main-color;
-  //   text-align: center;
-  //   font-weight: 700;
-  //   letter-spacing: 2px;
-  // }
-
-  // .skills-content {
-  //   font-weight: 300;
-  //   font-size: 16px;
-  //   width: 100%;
-  // }
-
-  // .projects {
-  //   padding: 50px;
-  //   position: relative;
-  //   left: 50%;
-  // }
 
   .sortingvis-pic {
     width: 100%;

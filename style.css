@@ -54,6 +54,7 @@
   position: relative;
   left: 50%;
   opacity: 1;
+  padding: 100px 140px;
 }
 
 .intro .about-title,
@@ -73,8 +74,9 @@
 .intro .skills-content,
 .intro .projects-content {
   font-weight: 300;
-  font-size: 16px;
+  font-size: 18px;
   width: 100%;
+  padding: 100px auto;
 }
 
 .intro .sortingvis-pic {
