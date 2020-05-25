@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dannybuii/dannybuii.github.io.git"
+    "url": "git+https://github.com/dannybuii/danny-s_website.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dannybuii/dannybuii.github.io/issues"
+    "url": "https://github.com/dannybuii/danny-s_website.git/issues"
   },
-  "homepage": "https://github.com/dannybuii/dannybuii.github.io#readme",
+  "homepage": "https://github.com/dannybuii/danny-s_website.git#readme",
   "dependencies": {
     "gh-pages": "^2.2.0"
   }
