@@ -1,0 +1,23 @@
+{
+  "name": "WebDevPort",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannybuii/dannybuii.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dannybuii/dannybuii.github.io/issues"
+  },
+  "homepage": "https://github.com/dannybuii/dannybuii.github.io#readme",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
