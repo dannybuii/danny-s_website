@@ -131,6 +131,31 @@ ul {
   height: auto;
 }
 
+.link-text {
+  color: $main-color;
+  font-weight: 700;
+  letter-spacing: 2px;
+
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0px 1px;
+  transition: all 0.5s ease-in-out;
+  box-sizing: border-box;
+  text-decoration: none;
+  box-shadow: inset 0 -2px 0 white;
+  &:hover {
+    box-shadow: inset 0 -55px 0 0 $main-color;
+    color: white;
+  }
+}
+
+.footer-container {
+  text-align: right;
+  margin: 0 15px;
+  letter-spacing: 1px;
+}
+
 // .sortingvis-info {
 //   margin-top: 100px;
 //   margin-left: 100px;
