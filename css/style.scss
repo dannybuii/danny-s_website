@@ -120,18 +120,21 @@ ul {
   text-align: center;
 }
 
-//   .sortingvis-pic {
-//     width: 150%;
-//   }
+.sortingvis-pic,
+.poke-pic,
+.movie-pic {
+  // display: block;
+  // margin-left: auto;
+  // margin-right: auto;
+  // width: 100%;
+  width: 1000px;
+  height: auto;
+}
 
-//   .sortingvis-info {
-//     margin-top: 100px;
-//     margin-left: 100px;
-//   }
-
-//   .movie-pic {
-//     width: 150%;
-//   }
+// .sortingvis-info {
+//   margin-top: 100px;
+//   margin-left: 100px;
+// }
 
 // .projects-title {
 //   width: 200px;

@@ -94,4 +94,11 @@ ul {
   padding: 100px auto;
   text-align: center;
 }
+
+.sortingvis-pic,
+.poke-pic,
+.movie-pic {
+  width: 1000px;
+  height: auto;
+}
 /*# sourceMappingURL=style.css.map */
