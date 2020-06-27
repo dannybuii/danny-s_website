@@ -158,6 +158,19 @@ ul {
 }
 
 @media all and (max-width: 500px) {
+  // #col-1,
+  // #col-2,
+  // #col-3,
+  // #col-4 {
+  //   // border: 1px solid black;
+  //   // text-align: center;
+  //   flex-basis: 33.3333%;
+  //   flex-grow: 1;
+  //   flex-shrink: 1;
+  //   -webkit-box-flex: 2;
+  //   -webkit-tap-highlight-color: #0000;
+  // }
+
   .intro-head {
     height: 90vh;
     margin: 0px auto;
@@ -216,11 +229,11 @@ ul {
   .about-title,
   .skills-title,
   .projects-title {
-    // height: 95px;
-    // width: 100%;
+    height: 95px;
+    width: 100%;
     // margin: auto;
     color: $main-color;
-    // text-align: center;
+    text-align: center;
     font-weight: 700;
     letter-spacing: 2px;
   }
@@ -252,41 +265,47 @@ ul {
 
   ul {
     list-style: none;
-    // padding: 0;
-    // margin: 0;
+    padding: 0;
+    margin: 0;
   }
 
   .items {
-    // margin: 5px 0;
-    // font-size: 0.9rem;
+    margin: 5px 0;
+    font-size: 0.9rem;
   }
 
-  .sortingvis-pic,
-  .poke-pic,
-  .movie-pic {
-    height: auto;
+  //   .sortingvis-pic,
+  //   .poke-pic,
+  //   .movie-pic {
+  //     height: auto;
+  //   }
+  // }
+
+  .link-text {
+    color: $main-color;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 1px;
+    transition: all 0.5s ease-in-out;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-shadow: inset 0 -2px 0 white;
+    &:hover {
+      box-shadow: inset 0 -55px 0 0 $main-color;
+      color: white;
+    }
+  }
+
+  .footer-container {
+    text-align: right;
+    margin: 0 7.5px;
+    letter-spacing: 2px;
   }
 }
-
-.link-text {
-  color: $main-color;
-  font-weight: 700;
-  letter-spacing: 2px;
-
-  text-transform: uppercase;
-  text-decoration: none;
-  display: inline-block;
-  padding: 0px 1px;
-  transition: all 0.5s ease-in-out;
-  box-sizing: border-box;
-  text-decoration: none;
-  box-shadow: inset 0 -2px 0 white;
-  &:hover {
-    box-shadow: inset 0 -55px 0 0 $main-color;
-    color: white;
-  }
-}
-
 // footer {
 //   border-top-style: solid;
 //   border-top-color: $main-color;
