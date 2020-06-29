@@ -222,9 +222,13 @@ ul {
   //   margin-inline-end: 0px;
   // }
 
-  // .about {
-  //   padding: 100px 1px;
-  // }
+  .about,
+  .skills,
+  .projects {
+    opacity: 1;
+    padding: 100px 140px;
+    // border: 1px solid red;
+  }
 
   .about-title,
   .skills-title,

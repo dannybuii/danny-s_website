@@ -162,6 +162,12 @@ ul {
             box-shadow: inset 0 -55px 0 0 #007fff;
     color: white;
   }
+  .about,
+  .skills,
+  .projects {
+    opacity: 1;
+    padding: 100px 140px;
+  }
   .about-title,
   .skills-title,
   .projects-title {
