@@ -9,8 +9,6 @@ app.get("/", function (req, res) {
   res.render("index");
 });
 
-console.log(g);
-
 app.listen(port, function () {
   console.log("app running");
 });
